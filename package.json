@@ -1,0 +1,17 @@
+{
+  "name": "fusion-dance-academy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Adarsh kumar",
+  "license": "ISC",
+  "description": "Fusion Dance Academy is a dynamic web application built with Node.js, designed for a dance academy. This platform enables users to explore dance programs, register for classes, view instructor profiles, and stay connected with the academy's events and updates.",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}

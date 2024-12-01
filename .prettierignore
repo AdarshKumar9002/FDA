@@ -1,0 +1,10 @@
+dist
+node_modules
+.prettierrc.json
+.prettierignore
+eslint.config.mjs
+package-lock.json
+package.json
+postcss.config.js
+webpack.config.js
+webpack.prod.config.js

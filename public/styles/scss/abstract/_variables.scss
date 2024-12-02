@@ -50,27 +50,26 @@
   --spacing-03: 1.5em;
   --spacing-04: 2em;
   --spacing-05: 2.5em;
-
-
-  /* ===== Breakpoints ===== */
-  --breakpoint-mobile-s: 320px;
-  --breakpoint-mobile-m: 375px;
-  --breakpoint-mobile-l: 425px;
-  --breakpoint-tab: 768px;
-  --breakpoint-laptop: 1024px;
-  --breakpoint-laptop-m: 1280px;
-  --breakpoint-desktop: 1440px;
-  --breakpoint-desktop-l: 1920px;
 }
 
-@media screen and (min-width: var(--breakpoint-tab)) {
+  /* ===== Breakpoints ===== */
+  $breakpoint-mobile-s: 320px;
+  $breakpoint-mobile-m: 375px;
+  $breakpoint-mobile-l: 425px;
+  $breakpoint-tab: 768px;
+  $breakpoint-laptop: 1024px;
+  $breakpoint-laptop-m: 1280px;
+  $breakpoint-desktop: 1440px;
+  $breakpoint-desktop-l: 1920px;
+
+@media screen and (min-width: $breakpoint-tab) {
   :root {
     /* ===== Font Sizes ===== */
     --font-size-topHeading: 4.375rem;
     --font-size-sectionHeading: 3.125rem;
   }
 }
-@media screen and (min-width: var(--breakpoint-desktop)) {
+@media screen and (min-width: $breakpoint-desktop) {
   :root {
     /* ===== Font Sizes ===== */
     --font-size-topHeading: 7.5rem;

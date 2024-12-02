@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "lint:eslint": "eslint --fix .",
+    "lint:prettier": "prettier --write .",
+    "scss": "sass --watch ./public/styles/scss:./public/style/css",
+    "lint": "npm run lint:eslint && npm run lint:prettier"
   },
   "keywords": [],
   "author": "Adarsh kumar",
